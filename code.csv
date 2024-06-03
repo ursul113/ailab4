@@ -1,0 +1,11 @@
+code,description
+def add(a, b): return a + b,This function adds two numbers.
+def subtract(a, b): return a - b,This function subtracts the second number from the first.
+def multiply(a, b): return a * b,This function multiplies two numbers.
+def divide(a, b): return a / b if b != 0 else 'Division by zero error',This function divides the first number by the second, handling division by zero.
+def factorial(n): return 1 if n == 0 else n * factorial(n-1),This function returns the factorial of a number using recursion.
+def is_even(n): return n % 2 == 0,This function checks if a number is even.
+def is_odd(n): return n % 2 != 0,This function checks if a number is odd.
+def power(base, exp): return base ** exp,This function raises a base to an exponent.
+def greet(name): return f'Hello, {name}!',This function returns a greeting message with the given name.
+def reverse_string(s): return s[::-1],This function returns the reverse of the input string.
